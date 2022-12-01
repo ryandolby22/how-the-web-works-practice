@@ -1,10 +1,13 @@
 # how-the-web-works-practice
 
 What is HTTP?
+    Hyptertext Transfer Protocol. How broswers and servers communicate. HTTPS is a secure version of HTTP; encryption. 
   
 What is a URL?
+    Contains, made up of, a Protocol, Hostname, Port, Resource, and Query, e.g. 
 
 What is DNS?
+    Domain Name System. A phone book for the Internet. Translates human readable web addresses into their respective IP addresses. 
 
 What is a query string?
 
