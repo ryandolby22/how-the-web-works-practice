@@ -26,7 +26,14 @@ What are the processes that happen when you type “http://somesite.com/some/pag
         
 PART TWO: 
 1. Using curl, make a GET request to the icanhazdadjoke.com API to find all jokes involving the word “pirate”
+curl https://icanhazdadjoke.com/search\?term\=pirate
+Why couldn't the kid see the pirate movie? Because it was rated arrr!
+What did the pirate say on his 80th birthday? Aye Matey!
+What does a pirate pay for his corn? A buccaneer!
+Why are pirates called pirates? Because they arrr!
+Why do pirates not know the alphabet? They always get stuck at "C".                                                 
        
 2. Use dig to find what the IP address is for icanhazdadjoke.com
     172.67.198.173
+
 3. Make a simple web page and serve it using python3 -m http.server. Visit the page in a browser.
