@@ -10,13 +10,16 @@ What is DNS?
     Domain Name System. A phone book for the Internet. Translates human readable web addresses into their respective IP addresses. 
 
 What is a query string?
+        Following resource in a URL, the query string provides information, or insight into, something queried on a page or a file extension on a page. For example, a search bar on page with entered text results in an updated url to reflect the query performed or text searched, example - ?x=dogs
 
 What are two HTTP verbs and how are they different?
   GET and POST. Get retreives information without making any server changes. POST changes server information e.g. causes side affects. 
 What is an HTTP request?
 
-What is an HTTP response?
+What is an HTTP response? Typically in response codes. Examples: 400 (Error/Page note found), 200 (good connection), 300 (a re-direct). 
 
 What is an HTTP header? Give a couple examples of request and response headers you have seen.
+        Content Type (typically text/html for web pages), Date/time the server thinks it is, Any cookies server wants to set, Any caching information
 
-What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser? 
+        In short, a lot of things, but information you're attempting to retrieve will be cheked on you local machine, cached history, server, DNS server then render data to be returned. 
